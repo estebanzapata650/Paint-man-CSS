@@ -1,0 +1,56 @@
+:root {
+    --skin: #f6c09c;
+    --background: #ed2860;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff;
+  }
+  
+  body{
+    margin: 0;  
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .head{
+    width: 100px;
+    height: 200px;
+    background: var(--skin);
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  .eye-left{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: var(--white);
+    top: 58px;
+    border-radius: 50%;
+    left: 28px;
+  }
+  
+  .eye-right{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: var(--white);
+    top: 58px;
+    border-radius: 50%;
+    right: 28px;
+  }
+  
+  .bottom{
+    position: absolute;
+    top: 90px;
+    width: 100px;
+    height: 120px;
+    background: var(--black);
+    border-radius: 40px;
+  }
